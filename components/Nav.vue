@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen bg-[#1A0B2E] h-[113px] p-4 lg:px-20 fixed top-0 left-0 z-50">
+  <div class="w-screen bg-[#1A0B2E] h-[113px] p-4 lg:px-20">
     <header class="max-w-[1440px] mx-auto flex items-center justify-between h-full">
 
       <NuxtLink to="/" @click.prevent="scrollTo('hero')">
