@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Preahvihear;
+    src: url("../fonts/Poppins,Preahvihear/Preahvihear/Preahvihear-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins,Preahvihear/Poppins/Poppins-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins,Preahvihear/Poppins/Poppins-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins,Preahvihear/Poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins,Preahvihear/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@theme {
+    --font-preahvihear: Preahvihear;
+    --font-poppins: Poppins;
+}
